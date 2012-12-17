@@ -1,0 +1,122 @@
+
+body
+  margin 0px
+  overflow-y scroll
+  background hsl(120,0,60)
+  background-image url(../pic/simple-house.jpg)
+  background-size 1600px
+  background-attachment fixed
+
+*
+  box-sizing border-box
+
+@font-face
+  font-family 'Josefin-Sans'
+  font-style normal
+  src url(../fonts/Josefin-Sans-700.woff) format('woff')
+
+@font-face
+  font-family: 'Cagliostro'
+  src url(../fonts/Cagliostro.woff) format('woff')
+
+#center
+  background hsla(220,10,0,0.78)
+  width 800px
+  margin 0px auto
+  padding 0px 0px 200px 0px
+
+#place
+  text-align center
+
+.title
+  font-size 50px
+  padding 50px 80px
+  font-family Josefin-Sans
+  color hsl(0,10,80)
+  text-shadow 0px 0px 3px hsl(0,0,50)
+
+#player
+  margin 0px auto
+  position relative
+  padding 0px
+
+#video
+  box-shadow 0px 0px 8px hsla(0,0,40,0.6)
+  margin-bottom -5px
+  width 640px
+
+#timeline
+  // background hsla(240,30,30,0.8)
+  width 100%
+  cursor pointer
+  -webkit-transition-duration 0.4s
+
+#step
+  -webkit-transition-duration 0.2s
+  width 0px
+  background hsla(20,80,60,0.9)
+  height 3px
+
+#control
+  position absolute
+  bottom 3px
+  background hsla(240,60,0,0.4)
+  width 100%
+  padding 4px
+  text-align left
+  opacity 0
+  -webkit-transition-duration 0.3s
+  color hsl(240,0,100,0.8)
+  font-family: 'Cagliostro'
+  font-weight bold
+
+  &:hover
+    opacity 1
+
+  div
+    display inline-block
+
+    &:hover
+      text-shadow 0px 0px 6px hsl(0,0,100)
+
+#play
+  width 60px
+  padding-left 6px
+  cursor pointer
+
+#volume
+  width 80px
+  cursor pointer
+
+  &:before
+    content "vol: "
+  &:after
+    content "%"
+.muted
+  color hsla(0,0,80,0.6)
+
+#current
+  width 80px
+  &:before
+    content "curr: "
+  &:after
+    content "s"
+
+#length
+  width 80px
+
+  &:before
+    content "len: "
+  &:after
+    content "s"
+
+.intro
+  margin 40px
+  font-size 17px
+
+p
+  font-family: 'Cagliostro'
+  margin 0px
+  line-height 30px
+  color hsl(0,0,70)
+  text-align center

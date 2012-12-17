@@ -1,0 +1,126 @@
+body {
+  margin: 0px;
+  overflow-y: scroll;
+  background: #999;
+  background-image: url("../pic/simple-house.jpg");
+  background-size: 1600px;
+  background-attachment: fixed;
+}
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Josefin-Sans';
+  font-style: normal;
+  src: url("../fonts/Josefin-Sans-700.woff") format('woff');
+}
+@font-face {
+  font-family: 'Cagliostro';
+  src: url("../fonts/Cagliostro.woff") format('woff');
+}
+#center {
+  background: rgba(0,0,0,0.78);
+  width: 800px;
+  margin: 0px auto;
+  padding: 0px 0px 200px 0px;
+}
+#place {
+  text-align: center;
+}
+.title {
+  font-size: 50px;
+  padding: 50px 80px;
+  font-family: Josefin-Sans;
+  color: #d1c7c7;
+  text-shadow: 0px 0px 3px #808080;
+}
+#player {
+  margin: 0px auto;
+  position: relative;
+  padding: 0px;
+}
+#video {
+  box-shadow: 0px 0px 8px rgba(102,102,102,0.6);
+  margin-bottom: -5px;
+  width: 640px;
+}
+#timeline {
+  width: 100%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+}
+#step {
+  -webkit-transition-duration: 0.2s;
+  width: 0px;
+  background: rgba(235,126,71,0.9);
+  height: 3px;
+}
+#control {
+  position: absolute;
+  bottom: 3px;
+  background: rgba(0,0,0,0.4);
+  width: 100%;
+  padding: 4px;
+  text-align: left;
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  color: #fff;
+  font-family: 'Cagliostro';
+  font-weight: bold;
+}
+#control:hover {
+  opacity: 1;
+}
+#control div {
+  display: inline-block;
+}
+#control div:hover {
+  text-shadow: 0px 0px 6px #fff;
+}
+#play {
+  width: 60px;
+  padding-left: 6px;
+  cursor: pointer;
+}
+#volume {
+  width: 80px;
+  cursor: pointer;
+}
+#volume:before {
+  content: "vol: ";
+}
+#volume:after {
+  content: "%";
+}
+.muted {
+  color: rgba(204,204,204,0.6);
+}
+#current {
+  width: 80px;
+}
+#current:before {
+  content: "curr: ";
+}
+#current:after {
+  content: "s";
+}
+#length {
+  width: 80px;
+}
+#length:before {
+  content: "len: ";
+}
+#length:after {
+  content: "s";
+}
+.intro {
+  margin: 40px;
+  font-size: 17px;
+}
+p {
+  font-family: 'Cagliostro';
+  margin: 0px;
+  line-height: 30px;
+  color: #b3b3b3;
+  text-align: center;
+}
