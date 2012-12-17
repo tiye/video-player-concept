@@ -1,5 +1,15 @@
 
-# Video Player Concept Design
+# a Minimal Video Player Concept Design
+
+### A simple video player
+
+The control panels on Youtube and Tudou bothers.  
+I'm trying to build a really concret and smart UI as a test.  
+The demo was debugged on Chrome with HTML5 `<video>` tag.  
+Hopefully someone likes it.  
+
+Found it on my `gh-pages`:  
+http://jiyinyiyong.github.com/video-player-concept/page/
 
 ### Reference
 
@@ -14,6 +24,5 @@ https://www.google.com/webfonts/specimen/Josefin+Sans
 and "Cagliostro":  
 https://www.google.com/webfonts/specimen/Cagliostro
 
-Backgound found on Google, the original link:  
+Backgound image was from Google, the original link:  
 http://www.listofimages.com/wallpapers/2012/07/simple-house-map-3d-1600x2560.jpg
-
